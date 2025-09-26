@@ -24,8 +24,10 @@ const navbar = () => {
       <div className="parent_div flex mt-[40px] justify-center items-center gap-[30px]">
         <div className="card w-97 h-[200px] card-md shadow-sm bg-gradient-to-t from-purple-700 to bg-purple-400">
           <div className="card-body">
-            <h2 className="card-title justify-center text-cente">Resolved</h2>
-            <h2 className="card-title justify-center text-center">0</h2>
+            <h2 className="card-title justify-center text-cente">In-Progres</h2>
+            <h2 className="card-title justify-center text-center text-3xl">
+              <span>0</span>
+            </h2>
           </div>
         </div>
 
